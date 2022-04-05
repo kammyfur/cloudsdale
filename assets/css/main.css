@@ -1,0 +1,23 @@
+html, body.bg-dark {
+    margin: 0;
+    background-color: #391740 !important;
+}
+
+body * {
+    color: white;
+}
+
+nav.navbar {
+    background-color: transparent !important;
+    border-bottom: 1px solid rgba(255, 255, 255, .25);
+}
+
+#hero {
+    text-align: center;
+    margin-top: 25px;
+}
+
+#hero-img {
+    width: 256px;
+    max-width: 100vw;
+}
