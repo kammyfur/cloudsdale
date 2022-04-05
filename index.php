@@ -1,4 +1,4 @@
-<?php $title = "Home"; require_once $_SERVER["DOCUMENT_ROOT"] . "/includes/gui/header.php"; ?>
+<?php $title = null; require_once $_SERVER["DOCUMENT_ROOT"] . "/includes/gui/header.php"; ?>
 
 <div id="hero">
     <img src="/assets/img/icon.png" id="hero-img" alt="">
