@@ -9,15 +9,10 @@ As per Cloudburst's requirements, this project features a REST-ful API that allo
 
 ### Endpoints
 The following endpoints are available on the API:
-* Publicly accessible endpoints:
   * `pluralkit` (PluralKit data, read-only)
   * `projects` (projects list, read-only)
-* Endpoints that require admin authentication:
-  * `users` (add/remove administrators)
-  * `project-manager` (projects list, read-write)
-  * `pluralkit-config` (PluralKit data, read-write)
+  * `contact` (contact info)
 
 (visit `/api` on the live website for all available endpoints)
 
-### Authentication
-Authentication is made using the `pcdAdminToken` cookie, which is set when OAuth2 with GitHub is completed and the website confirmed the user is an allowed administrator.
+Admin panel data is not accessible from the API for security reasons (the real reason is laziness). If you really need access to the data, you may parse it manually from the HTML code.
