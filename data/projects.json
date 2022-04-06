@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Some random project",
+    "description": "This is a random project",
+    "icon": "https://sattelite.cdn.minteck.org/logo.svg",
+    "source": "https://gitlab.minteck.org/minteck/rainbow",
+    "showcase": true
+  },
+  {
+    "name": "ContactPlus",
+    "description": "A fake PIM app created for this template",
+    "icon": "https://sattelite.cdn.minteck.org/logo.svg",
+    "source": "https://gitlab.minteck.org/minteck/cloudsdale",
+    "showcase": false
+  }
+]
